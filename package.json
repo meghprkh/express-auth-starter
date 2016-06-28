@@ -1,0 +1,31 @@
+{
+  "name": "express-auth-starter",
+  "version": "1.0.0",
+  "description": "A starter for my Express projects with token-based auth",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon .",
+    "lint": "eslint src/",
+    "prod": "NODE_ENV=production nodemon .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Megh Parikh <meghprkh@gmail.com> (http://meghprkh.github.io)",
+  "repository": "meghprkh/express-auth-starter",
+  "private": true,
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.7.1",
+    "express": "^4.13.4",
+    "express-history-api-fallback": "^2.0.0",
+    "jsonwebtoken": "^7.0.0",
+    "morgan": "^1.7.0",
+    "sequelize": "^3.23.3",
+    "sqlite3": "^3.1.4"
+  },
+  "devDependencies": {
+    "eslint": "^2.13.1",
+    "nodemon": "^1.9.2"
+  }
+}
