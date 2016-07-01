@@ -1,5 +1,7 @@
 # Express Auth Starter
 
+[![Build Status](https://travis-ci.org/meghprkh/express-auth-starter.svg?branch=master)](https://travis-ci.org/meghprkh/express-auth-starter)
+
 This is a starter/boiler-plate I use for creating express apps. It gives a minimal REST API with token-based authentication
 
 ## Setting Up
