@@ -1,3 +1,4 @@
 module.exports = {
-  secret: 'thisisthebiggestsecretyouhaveeverknowninyourwholelife'
+  secret: 'thisisthebiggestsecretyouhaveeverknowninyourwholelife',
+  saltRounds: 10,
 }
